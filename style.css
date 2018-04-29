@@ -1,0 +1,526 @@
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	@media screen and (min-width: 601px){
+
+	body{
+		background-image: url('web1.jpg');
+		background-repeat: no-repeat;
+
+		background-size: cover;
+		width: 100%;
+		height:100%;
+	}
+
+	.menu{
+		
+		width: 100%;
+		height: 80px;
+		margin-bottom: 10%;
+		background-color:rgba(0,0,0,0.7);
+
+	}
+
+	.menu ul{
+		display: flex;
+		flex-direction: row;
+		margin-left: 700px;
+
+	}
+
+	.menu ul li{
+		line-height: 70px;
+		padding-right: 50px;
+	    list-style-type: none;
+
+	}
+
+	.menu ul li a{
+		text-decoration: none;
+		color: white;
+	}
+
+	footer{
+		background-color: #222;
+		
+		width:100%;
+		padding: 10px;
+
+		color:white;
+		text-align: center;
+		
+
+		
+		
+	}
+	a:hover{
+		background-color:silver;
+		padding: 15px 25px;	
+	}
+
+
+
+
+	.text{
+
+		text-align: center;
+		color: silver;
+		margin-bottom: 30%;
+		animation-name: anime;
+		 animation-timing-function: linear; 
+			  animation-iteration-count: infinite; 
+			  animation-duration: 4s; 
+
+	}
+
+	@keyframes anime { 
+	   0%{ color: silver;  padding:3%; }
+	   20%{ color: #000; padding:1%;margin-left: 20%;}
+	   40%{ color: #cfcfcf; padding:2%; }
+	   80%{color: #ddd; padding:1%; margin-left:30%;}
+	   100%{color: #eee; padding:2%;} }
+	/*ABOUT CSS*/
+
+
+
+
+	.about .right{
+		padding-right: 10px;
+		margin-top: 60px;
+		height: 350px;
+		width:50%;
+		box-shadow: 0 2px 6px 2px rgba(0,0,0,1);
+		margin-right: 20px;
+		font-size: 30px;
+		font-family: verdana;
+		color: silver;
+	}
+
+
+	.about{
+		width: 100%;
+		margin-bottom: 10%;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		color: silver;
+
+
+	}
+
+	.about .left{
+		
+		flex-direction: left;
+		margin-left: 20px;
+		margin-top: 60px;
+		height: 350px;
+		width:35%;
+		box-shadow: 0 2px 6px 2px rgba(0,0,0,1)
+	}
+
+	.about .right{
+		padding-right: 10px;
+		margin-top: 60px;
+		height: 350px;
+		width:50%;
+		box-shadow: 0 2px 6px 2px rgba(0,0,0,1);
+		margin-right: 20px;
+	}
+
+	.about .left img{
+		width: 100%;
+		height: 100%;
+	}
+
+	/* CONTACT */
+	.contact{
+	  width: 100%;
+	  margin: auto;
+	  max-width: 550px;
+	  margin-left: 30%;
+	  color: #fff;
+	}
+
+	input[type=text], input[type=email], 
+	textarea{
+	  display: block;
+	  margin-left: 40%;
+
+	  width: 30%;
+	  min-height: 30px;
+	  border: dotted solid;
+	  
+	}
+	form{
+		width: 100%;
+		margin-bottom: 	20%;
+		display: flex;
+		flex-direction: column;
+	}
+	label{
+	  display: inline-block;
+	  margin-top: 10px 0px;
+	  font-family: 'arial', sans-serif; 
+	  margin-left: 40%;
+	  
+
+
+	}
+
+	input[type=submit]{
+	  border: none;
+	  background: rgba(255, 0, 0, 1);
+	  margin-top: 10px;
+	  padding: 10px ;
+	  font-size: 1.6em;
+	  color: #fff;
+	  margin-left: 40%
+	}
+	/*END OF CONTACT*/
+
+	/*Social*/
+	.fa {
+	  padding: 25px;
+	  font-size: 30px;
+	  width: 200px;
+	  text-align: center;
+	  text-decoration: none;
+	  margin: 6px 3px;
+	  height: 150px;
+	}
+
+	.fa:hover {
+	    opacity: 0.8;
+	    
+	}
+
+	 .social .fa-facebook {
+	  background: #3B5998;
+	  color: white;
+	  font-size: 100px;
+	}
+
+	.social .fa-google {
+	  background: #dd4b39;
+	  color: white;
+	  font-size: 100px;
+	}
+
+	.social .fa-instagram {
+	  background: #125688;
+	  color: white;
+	  font-size: 100px;
+	}
+
+	 .social .fa-youtube {
+	  background: #bb0000;
+	  color: black;
+	  font-size: 100px;
+	}
+
+	.social .fa-skype {
+	  background: #00aff0;
+	  color: white;
+	  font-size: 100px;
+	}
+	.social{
+		margin-top: 150px;
+		margin-left: 40px;
+		margin-bottom: 20%;
+
+	}
+	}
+
+	/*End of social*/
+
+
+	/*CV */
+
+	.cvHead{
+		color: #fff;
+		text-align: left;
+		margin-top: -8%;
+		margin-bottom: 3%;
+		border-bottom: 1px solid #fff;
+	}
+	  .cv{
+	  	width: 100%;
+	  	display: flex;
+	  	flex-direction: row;
+	  	flex-wrap: wrap;
+	  	flex-flow: center;
+	  	
+	  }
+	  .cv h1{
+	  	color: #fff;
+
+	  }
+
+	  .cv ul{
+	  	list-style: none;
+	  }
+
+	  .cv div{
+	  	width: 40%;
+	  	background: #ece1e147;
+	  	box-shadow:-1px 2px 10px #000;
+	  	margin-right: 1%;
+	  	margin-bottom: 1%;
+	  	padding: 2%;
+	  	font-size: 150%;
+
+
+	  }
+	@media screen and (max-width: 600px){
+		body{
+			width: 100%;
+			background-image: url('web1.jpg');
+		}
+
+		header{
+			width: 100%;
+			height: 20%;
+			display: flex;
+			flex-direction: column;
+
+		}
+
+		footer {
+		background: #000;
+		color: #fff;
+		width:100%;
+		height: 10%;
+		text-align: center;
+		margin-top: 10%;
+		
+	}
+		ul{
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			margin: 0;
+		}
+
+		.menu{
+		
+		width: 100%;
+		height: 20%;
+		background-color:rgba(0,0,0,0.7);
+
+	}
+
+
+
+	.menu ul li{
+		line-height: 30px;
+		
+	    list-style-type: none;
+
+	}
+
+	.menu ul li a{
+		text-decoration: none;
+		color: white;
+	}
+
+	a:hover{
+		background-color:silver;
+		padding: 15px 25px;	
+	}
+
+
+
+
+	.text{
+		width: 100%;
+		margin-bottom: 75%;
+		margin-top: 30%;
+		color: silver;
+	}
+
+
+	/*ABOUT CSS*/
+
+
+	.about{
+		width: 100%;
+		height: 80%;
+		display: flex;
+		flex-direction: column;
+	margin-bottom: 28%;}
+
+	.about .left{
+		margin-top: 10%;
+		width: 90%;
+		height: 40%;
+		box-shadow: 0 2px 6px 2px rgba(0,0,0,1);
+
+	}
+	.about .left img{
+		width: 100%;
+		height:50%;
+	}
+
+	.about .right{
+		
+		margin-top: 5%;
+		width:90%;
+		box-shadow: 0 2px 6px 2px rgba(0,0,0,1);
+		
+		font-size: 30px;
+		font-family: verdana;
+		color: silver;
+	}
+
+	.right p{
+		font-size: 50%;
+	}
+	/*end of about*/
+
+
+	/* CONTACT */
+	.contact{
+	  width: 100%;
+	  margin: 0;
+	 color: #fff;
+	}
+
+	input[type=text], input[type=email], 
+	textarea{
+	  display: block;
+	  margin-left: 40%;
+
+	  width: 30%;
+	  min-height: 30px;
+	  border: dotted solid;
+	  
+	}
+	form{
+		margin-bottom: 20%;
+	}
+	label{
+	  display: inline-block;
+	  margin-top: 10px 0px;
+	  font-family: 'arial', sans-serif; 
+	 }
+
+	input[type=submit]{
+	  border: none;
+	  background: rgba(255, 0, 0, 1);
+	  margin-top: 10px;
+	  padding: 10px ;
+	  font-size: 1.6em;
+	  color: #fff;
+	  margin-left: 40%
+	}
+	/*END OF CONTACT*/
+
+	/*Social*/
+	.social{
+		margin-bottom: 31%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 100%;
+		height: 80%;
+	}
+
+	.social a{
+		margin-left: 40%;
+		margin-bottom: 1%;
+		width: 5%;
+	}
+	 .social  .fa {
+	  
+	  font-size: 30px;
+	  padding: 3%;
+	  text-align: center;
+	  text-decoration: none;
+	  
+	  
+	}
+
+	 .social  .fa:hover {
+	    opacity: 0.8;
+	    
+	}
+
+	 .social .fa-facebook {
+	  background: #3B5998;
+	  color: white;
+	 
+	}
+
+	.social .fa-google {
+	  background: #dd4b39;
+	  color: white;
+	  
+	}
+
+	.social .fa-instagram {
+	  background: #125688;
+	  color: white;
+	  
+	}
+
+	 .social .fa-youtube {
+	  background: #bb0000;
+	  color: black;
+	  
+	}
+
+	.social .fa-skype {
+	  background: #00aff0;
+	  color: white;
+	  
+	}
+	.social{
+		margin-top: 150px;
+		margin-left: 40px;
+
+	}
+	/*social*/
+
+	/*cv*/
+
+
+	.cvHead{
+		color: #fff;
+		text-align: left;
+		margin-top: 2%;
+		margin-bottom: 3%;
+		border-bottom: 1px solid #fff;
+	}
+	  .cv{
+	  	width: 100%;
+	  	display: flex;
+	  	flex-direction: column;
+	 
+	  	
+	  }
+	  .cv h1{
+	  	color: #fff;
+
+	  }
+
+	  .cv ul{
+	  	list-style: none;
+	  }
+
+	  .cv div{
+	  	width: 90%;
+	  	background: #ece1e147;
+	  	box-shadow:-1px 2px 10px #000;
+	  	margin-left: 3%;
+	  	margin-right: 1%;
+	  	margin-bottom: 1%;
+	  	padding: 2%;
+	  	font-size: 150%;
+
+
+
+
+
+	}
+
